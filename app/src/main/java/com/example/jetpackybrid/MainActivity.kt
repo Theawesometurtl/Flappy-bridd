@@ -15,6 +15,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         flappy = findViewById(R.id.flappy)
-        flappy.
+
+        flappy.y = 1F
+        flappy.x = 1F
+
     }
 }
